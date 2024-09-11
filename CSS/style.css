@@ -41,3 +41,10 @@ html {
   align-items: center;
   justify-content: space-between;
 }
+
+.nav-bar .logo a {
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
