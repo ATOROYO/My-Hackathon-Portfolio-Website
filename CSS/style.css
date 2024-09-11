@@ -26,3 +26,12 @@ html {
   width: 100%;
   font-family: "ubuntu", sans-serif;
 }
+
+.nav-bar-2 {
+  background: #111;
+}
+
+.nav-bar.sticky {
+  padding: 15px 0;
+  background: rgb(173, 10, 78);
+}
