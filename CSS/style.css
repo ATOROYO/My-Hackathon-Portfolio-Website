@@ -139,3 +139,20 @@ html {
   color: rgb(173, 10, 78);
   font-weight: 500;
 }
+
+.home .home-content a {
+  display: inline-block;
+  background: rgb(173, 10, 78);
+  color: #fff;
+  font-size: 25px;
+  padding: 12px 36px;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: 2px solid rgb(173, 10, 78);
+  transition: all 0.3 ease;
+}
+
+.home .home-content a:hover {
+  color: #fff;
+  background: none;
+}
