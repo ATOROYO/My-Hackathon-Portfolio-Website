@@ -48,3 +48,14 @@ html {
   color: #fff;
   text-decoration: none;
 }
+
+.nav-bar .logo a span {
+  color: rgb(173, 10, 78);
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.nav-bar.sticky .logo a span {
+  color: #fff;
+  text-decoration: none;
+}
