@@ -35,3 +35,9 @@ html {
   padding: 15px 0;
   background: rgb(173, 10, 78);
 }
+
+.nav-bar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
