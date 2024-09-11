@@ -119,3 +119,23 @@ html {
 .home .max-width {
   margin: auto 0 auto 40px;
 }
+
+.home .home-content .text1 {
+  font-size: 27px;
+}
+
+.home .home-content .text2 {
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: 3px;
+}
+
+.home .home-content .text3 {
+  font-size: 40px;
+  margin: 5px 0;
+}
+
+.home .home-content .text3 span {
+  color: rgb(173, 10, 78);
+  font-weight: 500;
+}
