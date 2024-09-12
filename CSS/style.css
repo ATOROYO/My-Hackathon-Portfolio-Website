@@ -450,3 +450,9 @@ section {
 .contact .contact-content .column {
   width: calc(50% - 30px);
 }
+
+.contact .contact-content .text {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
