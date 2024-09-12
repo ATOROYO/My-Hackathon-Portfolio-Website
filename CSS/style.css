@@ -572,3 +572,8 @@ section {
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
+.contact .right form .button button:hover {
+  color: rgb(173, 10, 78);
+  background: none;
+}
