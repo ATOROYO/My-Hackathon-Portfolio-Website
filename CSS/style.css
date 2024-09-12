@@ -532,3 +532,7 @@ section {
 .contact .right form .name {
   margin-right: 10px;
 }
+
+.contact .right form .email {
+  margin-left: 10px;
+}
