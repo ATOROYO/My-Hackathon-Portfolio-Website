@@ -498,3 +498,7 @@ section {
   font-size: 25px;
   color: rgb(173, 10, 78);
 }
+
+.contact .contact-content .infor .head {
+  font-weight: 550;
+}
