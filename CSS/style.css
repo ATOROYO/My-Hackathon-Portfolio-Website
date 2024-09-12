@@ -493,3 +493,8 @@ section {
 .contact .contact-content .row .infor {
   margin-left: 30px;
 }
+
+.contact .contact-content .row i {
+  font-size: 25px;
+  color: rgb(173, 10, 78);
+}
