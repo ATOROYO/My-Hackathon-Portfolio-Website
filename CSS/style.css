@@ -260,3 +260,11 @@ section {
   font-weight: 600;
   margin-bottom: 10px;
 }
+
+.about .about-content .right .text span {
+  color: rgb(173, 10, 78);
+}
+
+.about .about-content .right p {
+  text-align: justify;
+}
