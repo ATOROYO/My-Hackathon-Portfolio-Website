@@ -309,7 +309,7 @@ section {
 }
 
 .services .services-content .card {
-  width: calc(33% - 20px);
+  width: calc(30% - 20px);
   background: #222;
   text-align: center;
   border-radius: 8px;
@@ -343,4 +343,9 @@ section {
   font-size: 25;
   font-weight: 500;
   margin: 10px 0 10px 0;
+}
+
+/* Skills section styling starts here */
+.skills .title::after {
+  content: "What I know";
 }
