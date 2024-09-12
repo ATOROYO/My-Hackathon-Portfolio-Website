@@ -553,3 +553,9 @@ section {
   padding-top: 10px;
   resize: none;
 }
+
+.contact .right form .button {
+  height: 45px;
+  width: 175px;
+  padding-top: 50px;
+}
