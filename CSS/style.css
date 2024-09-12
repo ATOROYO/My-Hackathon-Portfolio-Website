@@ -510,3 +510,8 @@ section {
 .contact .right form .fields {
   display: flex;
 }
+
+.contact .right form .textarea {
+  height: 100px;
+  width: 100%;
+}
