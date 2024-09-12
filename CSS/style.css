@@ -586,3 +586,7 @@ section {
 .projects {
   display: flex;
 }
+
+.projects .projects-content .small-nav {
+  background: rgb(173, 10, 78);
+}
