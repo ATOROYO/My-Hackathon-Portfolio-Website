@@ -464,3 +464,16 @@ section {
 .contact .contact-content .left .icons {
   margin: 10px 0;
 }
+
+.contact .contact-content .left a {
+  display: inline-block;
+  background: rgb(173, 10, 78);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: 2px solid rgb(173, 10, 78);
+  transition: all 0.3 ease;
+}
