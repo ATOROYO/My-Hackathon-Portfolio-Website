@@ -446,3 +446,7 @@ section {
 .contact .title::after {
   content: "Get in touch";
 }
+
+.contact .contact-content .column {
+  width: calc(50% - 30px);
+}
