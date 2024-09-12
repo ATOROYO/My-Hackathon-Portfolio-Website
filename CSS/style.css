@@ -254,3 +254,9 @@ section {
 .about .about-content .right {
   width: 55%;
 }
+
+.about .about-content .right .text {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
