@@ -603,3 +603,7 @@ section {
   display: flex;
   flex-wrap: wrap;
 }
+
+.projects .projects-content .card:hover {
+  background: rgb(173, 10, 78);
+}
