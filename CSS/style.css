@@ -506,3 +506,7 @@ section {
 .contact .contact-content .infor .sub-title {
   color: #333;
 }
+
+.contact .right form .fields {
+  display: flex;
+}
