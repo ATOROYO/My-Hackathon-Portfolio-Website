@@ -286,3 +286,11 @@ section {
   color: rgb(173, 10, 78);
   background: none;
 }
+
+/* Services section styling starts here */
+.services,
+.team,
+.projects {
+  background: #111;
+  color: #fff;
+}
