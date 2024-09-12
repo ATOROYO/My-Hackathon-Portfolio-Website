@@ -502,3 +502,7 @@ section {
 .contact .contact-content .infor .head {
   font-weight: 550;
 }
+
+.contact .contact-content .infor .sub-title {
+  color: #333;
+}
