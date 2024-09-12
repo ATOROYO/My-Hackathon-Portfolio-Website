@@ -174,3 +174,13 @@ html {
   opacity: 1;
   pointer-events: auto;
 }
+
+/* ALL SIMILAR CONTENTS STYLING CODE */
+.about,
+.services,
+.skills,
+.contact,
+.projects,
+footer {
+  font-family: "quicksand", sans-serif;
+}
