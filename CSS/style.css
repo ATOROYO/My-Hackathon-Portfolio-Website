@@ -101,13 +101,9 @@ html {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* align-items: center;
+  align-items: center;
   justify-content: center;
-  align-content: center; */
-  /* -webkit-transition: -webkit-transform 1600ms;
-  transition: -webkit-transform 1600ms, transform 1600ms;
-  -webkit-transform: scale(1);
-  transform: scale(1); */
+  align-content: center;
 }
 
 /* Slides Background Color */
