@@ -615,3 +615,7 @@ section {
 .projects .projects-content .card:hover .box {
   transform: scale(1.05);
 }
+
+.projects .projects-content .card .box img {
+  height: 200px;
+}
