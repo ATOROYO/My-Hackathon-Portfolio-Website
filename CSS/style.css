@@ -515,3 +515,9 @@ section {
   height: 100px;
   width: 100%;
 }
+
+.contact .right form .field {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
