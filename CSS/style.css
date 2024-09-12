@@ -629,3 +629,18 @@ section {
 .projects .projects-content .card:hover i {
   color: #fff;
 }
+
+.projects .projects-content .card p {
+  font-size: 25;
+  font-weight: 500;
+  margin: 10px 0 10px 0;
+}
+
+.projects .projects-content .card p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.projects .projects-content .card p a:hover {
+  text-decoration: underline;
+}
