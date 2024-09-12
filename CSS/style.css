@@ -328,3 +328,9 @@ section {
 .services .services-content .card:hover .box {
   transform: scale(1.05);
 }
+
+.services .services-content .card i {
+  font-size: 50px;
+  color: rgb(173, 10, 78);
+  transition: color 0.3s ease;
+}
