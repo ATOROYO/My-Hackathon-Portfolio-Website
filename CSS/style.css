@@ -477,3 +477,9 @@ section {
   border: 2px solid rgb(173, 10, 78);
   transition: all 0.3 ease;
 }
+
+.contact .contact-content .left a:hover {
+  background: none;
+  color: rgb(173, 10, 78);
+  transition: all 0.3 ease;
+}
