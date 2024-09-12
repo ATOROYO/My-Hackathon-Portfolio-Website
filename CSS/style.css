@@ -376,3 +376,8 @@ section {
   border: 2px solid rgb(173, 10, 78);
   transition: all 0.3 ease;
 }
+
+.skills .skills-content .left a:hover {
+  color: rgb(173, 10, 78);
+  background: none;
+}
