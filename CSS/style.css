@@ -229,3 +229,16 @@ section .title::after {
   background: #fff;
   transform: translateX(-50%);
 }
+
+/* About section styling starts here */
+section {
+  padding: 100px 0;
+}
+
+.about .title::after {
+  content: "Who I'm";
+}
+
+.about .about-content .left {
+  width: 45%;
+}
