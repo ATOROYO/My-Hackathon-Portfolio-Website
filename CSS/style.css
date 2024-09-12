@@ -184,3 +184,15 @@ html {
 footer {
   font-family: "quicksand", sans-serif;
 }
+
+.about .about-content,
+.services .services-content,
+.skills .skills-content,
+.contact .contact-content,
+.projects .projects-content,
+.footer .footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
