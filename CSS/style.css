@@ -577,3 +577,8 @@ section {
   color: rgb(173, 10, 78);
   background: none;
 }
+
+/* Projects section styling starts here */
+.projects .title::after {
+  content: "What I've done";
+}
