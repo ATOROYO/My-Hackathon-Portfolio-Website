@@ -307,3 +307,12 @@ section {
   content: "What I provide";
   background: #111;
 }
+
+.services .services-content .card {
+  width: calc(33% - 20px);
+  background: #222;
+  text-align: center;
+  border-radius: 8px;
+  padding: 20px 25px;
+  cursor: pointer;
+}
