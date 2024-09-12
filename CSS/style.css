@@ -101,9 +101,6 @@ html {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
 }
 
 /* Slides Background Color */
