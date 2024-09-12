@@ -338,3 +338,9 @@ section {
 .services .services-content .card:hover i {
   color: #fff;
 }
+
+.services .services-content .card .text {
+  font-size: 25;
+  font-weight: 500;
+  margin: 10px 0 10px 0;
+}
