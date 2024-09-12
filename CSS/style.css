@@ -397,3 +397,10 @@ section {
   font-weight: 500;
   font-size: 18px;
 }
+
+.skills .skills-content .right .line {
+  height: 5px;
+  width: 100%;
+  background: lightgrey;
+  position: relative;
+}
