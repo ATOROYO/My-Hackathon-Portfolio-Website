@@ -381,3 +381,7 @@ section {
   color: rgb(173, 10, 78);
   background: none;
 }
+
+.skills .skills-content .right .bars {
+  margin-bottom: 15px;
+}
