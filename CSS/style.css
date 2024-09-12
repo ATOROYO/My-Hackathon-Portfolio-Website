@@ -528,3 +528,7 @@ section {
   width: 100%;
   margin-bottom: 15px;
 }
+
+.contact .right form .name {
+  margin-right: 10px;
+}
