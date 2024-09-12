@@ -548,3 +548,8 @@ section {
   font-size: 15px;
   font-family: "poppin", sans-serif;
 }
+
+.contact .right form .textarea textarea {
+  padding-top: 10px;
+  resize: none;
+}
