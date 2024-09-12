@@ -404,3 +404,12 @@ section {
   background: lightgrey;
   position: relative;
 }
+
+.skills .skills-content .right .line::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgb(173, 10, 78);
+}
