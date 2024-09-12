@@ -316,3 +316,7 @@ section {
   padding: 20px 25px;
   cursor: pointer;
 }
+
+.services .services-content .card:hover {
+  background: rgb(173, 10, 78);
+}
