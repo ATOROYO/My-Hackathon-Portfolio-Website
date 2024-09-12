@@ -483,3 +483,9 @@ section {
   color: rgb(173, 10, 78);
   transition: all 0.3 ease;
 }
+
+.contact .contact-content .row {
+  display: flex;
+  height: 65px;
+  align-items: center;
+}
