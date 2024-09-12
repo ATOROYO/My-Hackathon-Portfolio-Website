@@ -334,3 +334,7 @@ section {
   color: rgb(173, 10, 78);
   transition: color 0.3s ease;
 }
+
+.services .services-content .card:hover i {
+  color: #fff;
+}
