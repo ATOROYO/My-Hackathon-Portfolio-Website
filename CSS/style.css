@@ -619,3 +619,9 @@ section {
 .projects .projects-content .card .box img {
   height: 200px;
 }
+
+.projects .projects-content .card i {
+  font-size: 50px;
+  color: rgb(173, 10, 78);
+  transition: color 0.3s ease;
+}
