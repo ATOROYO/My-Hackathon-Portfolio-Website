@@ -294,3 +294,16 @@ section {
   background: #111;
   color: #fff;
 }
+
+.services .title::before,
+.team .title::before,
+.projects .title::before {
+  background: #fff;
+}
+
+.services .title::after,
+.team .title::after,
+.projects .title::after {
+  content: "What I provide";
+  background: #111;
+}
