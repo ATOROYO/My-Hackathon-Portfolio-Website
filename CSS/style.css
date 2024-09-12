@@ -413,3 +413,31 @@ section {
   top: 0;
   background: rgb(173, 10, 78);
 }
+
+.skills-content .right .html::before {
+  width: 90%;
+}
+
+.skills-content .right .css::before {
+  width: 60%;
+}
+
+.skills-content .right .javascript::before {
+  width: 70%;
+}
+
+.skills-content .right .php::before {
+  width: 30%;
+}
+
+.skills-content .right .python::before {
+  width: 40%;
+}
+
+.skills-content .right .photoshop::before {
+  width: 60%;
+}
+
+.skills-content .right .coreldraw::before {
+  width: 65%;
+}
