@@ -250,3 +250,7 @@ section {
   object-fit: cover;
   border-radius: 8px;
 }
+
+.about .about-content .right {
+  width: 55%;
+}
