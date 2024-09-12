@@ -582,3 +582,7 @@ section {
 .projects .title::after {
   content: "What I've done";
 }
+
+.projects {
+  display: flex;
+}
