@@ -93,7 +93,7 @@ html {
 .slider {
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   opacity: 1;
@@ -115,17 +115,20 @@ html {
 
 .home .home-content .text1 {
   font-size: 27px;
+  font-family: "ubuntu";
 }
 
 .home .home-content .text2 {
   font-size: 75px;
   font-weight: 600;
   margin-left: 3px;
+  font-family: "ubuntu";
 }
 
 .home .home-content .text3 {
   font-size: 40px;
   margin: 5px 0;
+  font-family: "ubuntu";
 }
 
 .home .home-content .text3 span {
@@ -143,6 +146,7 @@ html {
   border-radius: 8px;
   border: 2px solid rgb(173, 10, 78);
   transition: all 0.3 ease;
+  font-family: "ubuntu";
 }
 
 .home .home-content a:hover {
