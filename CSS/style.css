@@ -666,3 +666,19 @@ section {
   right: -9px;
   top: -10px;
 }
+
+.tag-color {
+  background: rgb(173, 10, 78);
+  color: #fff;
+  transition: all 0.3 ease;
+  transform: perspective(1px) translateZ(0);
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tag-color:hover {
+  background: none;
+  border: 2px solid rgb(173, 10, 78);
+  color: rgb(173, 10, 78);
+}
