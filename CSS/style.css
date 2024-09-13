@@ -786,3 +786,30 @@ img {
   margin-top: 16px;
   color: #fff;
 }
+
+.single-post-wrap .details .btn {
+  padding: 0 17px;
+  height: 44px;
+  line-height: 44px;
+  font-weight: 400;
+}
+
+.single-post-wrap .spw-bottom {
+  border-top: 1px solid #e0e0e0;
+  margin-top: 15px;
+  padding-top: 18px;
+}
+
+.single-post-wrap .spw-bottom ul {
+  margin: 0;
+  padding: 0;
+}
+
+.single-post-wrap .spw-bottom ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.single-post-wrap .spw-bottom ul li:first-child {
+  margin-left: 0;
+}
