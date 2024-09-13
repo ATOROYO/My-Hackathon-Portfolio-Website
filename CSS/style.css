@@ -710,3 +710,22 @@ img {
   border-style: none;
   max-width: 100%;
 }
+
+.single-post-wrap .thumb {
+  position: relative;
+  margin-bottom: 27px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.single-post-wrap .thumb img {
+  transition: 0.8s;
+  transform: scale(1.01);
+}
+
+.single-post-wrap .thumb .tag-base {
+  position: absolute;
+  left: 17px;
+  top: 19px;
+  z-index: 3;
+}
