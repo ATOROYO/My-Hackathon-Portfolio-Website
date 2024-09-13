@@ -665,3 +665,28 @@ footer span a:hover {
   padding: 0 15px 0 15px;
   text-decoration: none;
 }
+
+.footer .footer-content {
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .footer-content .footer-span {
+  height: 100%;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.footer {
+  text-align: center;
+  align-content: center;
+}
+
+.footer .footer-content .icons ul {
+  align-items: center;
+  list-style: none;
+}
+
+.footer ul {
+  align-content: center;
+}
