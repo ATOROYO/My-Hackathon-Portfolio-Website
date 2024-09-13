@@ -757,3 +757,32 @@ img {
   margin-top: -40px;
   z-index: 5;
 }
+
+.single-post-wrap .thumb .play-btn-medium {
+  position: absolute;
+  left: 50%;
+  margin-left: -32px;
+  top: 50%;
+  margin-top: -32px;
+  z-index: 5;
+  opacity: 0.8;
+}
+
+.single-post-wrap .thumb .play-btn-small {
+  position: absolute;
+  left: 50%;
+  margin-left: -20px;
+  top: 50%;
+  margin-top: -20px;
+  z-index: 5;
+}
+
+.single-post-wrap .details .title {
+  margin-bottom: 0;
+}
+
+.single-post-wrap .details p {
+  margin-bottom: 0;
+  margin-top: 16px;
+  color: #fff;
+}
