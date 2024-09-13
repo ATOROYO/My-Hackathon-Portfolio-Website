@@ -28,7 +28,7 @@ html {
 }
 
 .nav-bar-2 {
-  background: #111;
+  background: #e3aadd;
 }
 
 .nav-bar.sticky {
@@ -105,7 +105,7 @@ html {
 
 /* Slides Background Color */
 .slide-1 {
-  background: #fbad99;
+  background: #e3aadd;
   left: 0;
 }
 
@@ -189,7 +189,7 @@ footer {
 .services .services-content,
 .skills .skills-content,
 .contact .contact-content,
-.projects .projects-content,
+.projects .projects-container,
 .footer .footer-content {
   display: flex;
   flex-wrap: wrap;
@@ -291,34 +291,37 @@ section {
 .services,
 .team,
 .projects {
-  background: #111;
-  color: #fff;
+  background: #fff;
+  color: #111;
 }
 
 .services .title::before,
 .team .title::before,
 .projects .title::before {
-  background: #fff;
+  background: #111;
 }
 
 .services .title::after,
 .team .title::after,
 .projects .title::after {
   content: "What I provide";
-  background: #111;
+  background: #fff;
 }
 
 .services .services-content .card {
   width: calc(30% - 20px);
-  background: #222;
+  background: #e7e6e6;
+  color: #222;
   text-align: center;
   border-radius: 8px;
   padding: 20px 25px;
   cursor: pointer;
+  border: #222;
 }
 
 .services .services-content .card:hover {
   background: rgb(173, 10, 78);
+  color: #fff;
 }
 
 .services .services-content .card .box {
@@ -583,24 +586,20 @@ section {
   content: "What I've done";
 }
 
-#projects {
-  text-align: center;
-  padding: 50px 0;
-}
-
-.projects-container {
+/* .projects-container {
   display: flex;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
   height: 200px;
-}
+} */
 
 /* Project card styling */
 .project-card {
   background-color: #fff;
   border: 1px solid #ddd;
   padding: 20px;
+  margin-top: 50px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 500px;
@@ -638,13 +637,13 @@ section {
 
 /* Footer section styling starts here */
 footer {
-  background: #111;
+  background: #e3aadd;
   padding: 20px 23px;
   color: #fff;
 }
 
 footer span a {
-  color: rgb(223, 33, 112);
+  color: rgb(173, 10, 78);
   text-decoration: none;
 }
 
@@ -661,7 +660,7 @@ footer span a:hover {
 }
 
 .footer .footer-content .icons li a {
-  color: rgb(214, 49, 118);
+  color: rgb(173, 10, 78);
   padding: 0 15px 0 15px;
   text-decoration: none;
 }
