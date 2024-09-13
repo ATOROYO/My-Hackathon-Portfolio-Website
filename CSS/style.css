@@ -694,3 +694,19 @@ section {
 .pd-bottom-50 {
   padding-bottom: 50px;
 }
+
+.single-post-wrap {
+  position: relative;
+  margin-bottom: 30px;
+  transition: 0.4s;
+}
+
+.single-post-wrap .style-overlay .thumb {
+  margin-bottom: 0;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+  max-width: 100%;
+}
