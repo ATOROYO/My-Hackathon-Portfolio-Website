@@ -651,3 +651,17 @@ footer span a {
 footer span a:hover {
   text-decoration: underline;
 }
+
+.footer .max-width .footer-content .icons li {
+  font-size: 35px;
+  transition: all 0.3s ease;
+  list-style: none;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.footer .footer-content .icons li a {
+  color: rgb(214, 49, 118);
+  padding: 0 15px 0 15px;
+  text-decoration: none;
+}
