@@ -690,3 +690,17 @@ footer span a:hover {
 .footer ul {
   align-content: center;
 }
+
+/* Responsive media query styling starts here */
+@media (max-width: 1300px) {
+  .home .max-width {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 1104px) {
+  .about .about-content .left img {
+    height: 300px;
+    width: 300px;
+  }
+}
