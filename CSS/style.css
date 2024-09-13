@@ -682,3 +682,15 @@ section {
   border: 2px solid rgb(173, 10, 78);
   color: rgb(173, 10, 78);
 }
+
+.tag-color .notice {
+  background: rgb(173, 10, 78);
+}
+
+.pd-top-80 {
+  padding-top: 80px;
+}
+
+.pd-bottom-50 {
+  padding-bottom: 50px;
+}
