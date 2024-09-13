@@ -644,3 +644,12 @@ section {
 .projects .projects-content .card p a:hover {
   text-decoration: underline;
 }
+
+.tag-base {
+  height: 28px;
+  line-height: 28px;
+  padding: 0 14px;
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 15px;
+}
