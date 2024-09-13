@@ -583,14 +583,6 @@ section {
   content: "What I've done";
 }
 
-/* Basic styles */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-
-
 #projects {
   text-align: center;
   padding: 50px 0;
@@ -601,6 +593,7 @@ body {
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+  height: 200px;
 }
 
 /* Project card styling */
@@ -610,7 +603,7 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 550px;
+  width: 500px;
   transition: transform 0.3s ease;
 }
 
