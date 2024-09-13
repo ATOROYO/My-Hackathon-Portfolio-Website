@@ -635,3 +635,19 @@ section {
 .source-btn:hover {
   background-color: #ff6347;
 }
+
+/* Footer section styling starts here */
+footer {
+  background: #111;
+  padding: 20px 23px;
+  color: #fff;
+}
+
+footer span a {
+  color: rgb(223, 33, 112);
+  text-decoration: none;
+}
+
+footer span a:hover {
+  text-decoration: underline;
+}
