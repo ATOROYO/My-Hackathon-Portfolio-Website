@@ -31,7 +31,7 @@ You can visit the live version of the portfolio [here](#). _(Replace # with your
 - **HTML:** Structure of the website.
 - **CSS:** Styling and layout of the website.
 - **Icons:** [Font Awesome](https://fontawesome.com/), [Material Icons](https://material.io/resources/icons/), or another icon library for visual enhancement.
-- **I didn't use bootstrap as instructed by Eddie**
+- **I didn't use bootstrap as instructed by instructor Eddie on Tuesday afternoon**
 
 ## Setup
 
