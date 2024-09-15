@@ -197,7 +197,7 @@ html {
 .contact,
 .projects,
 footer {
-  font-family: "quicksand", sans-serif;
+  font-family: "poppins", sans-serif;
   transform: translateY(20px);
   animation: fadeInUp 1s 0.5s forwards;
 }

@@ -25,6 +25,7 @@ You can visit the live version of the portfolio [here](https://david-atoroyo-sik
 - **Projects:** A showcase of my projects with descriptions, screenshots, and links to live demos or repositories.
 - **Resume:** A downloadable resume with more detailed information about my professional experience.
 - **Icons:** Enhanced visual appeal using icons for social media, skills, and other relevant sections.
+- **The website is responsive and the toggle doesn't work because we were told not to use JavaScript**
 
 ## Technologies Used
 
