@@ -21,6 +21,7 @@ html {
 
 .nav-bar-2 {
   background: #e3aadd;
+  animation: slideInFromTop 1s ease-out;
 }
 
 .nav-bar.sticky {
@@ -197,6 +198,8 @@ html {
 .projects,
 footer {
   font-family: "quicksand", sans-serif;
+  transform: translateY(20px);
+  animation: fadeInUp 1s 0.5s forwards;
 }
 
 .about .about-content,
@@ -251,6 +254,10 @@ section {
 
 .about .title::after {
   content: "Who I'm";
+}
+
+.about h2 {
+  animation: bounceIn 1s forwards;
 }
 
 .about .about-content .left {
