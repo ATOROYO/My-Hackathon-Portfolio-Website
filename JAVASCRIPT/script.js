@@ -16,4 +16,19 @@ $(document).ready(function () {
   $(".scroll-up-btn").click(function () {
     $("html").animate({ scrollTop: 0 });
   });
+
+  // Typing animation script
+  var typed = new Typed(".typing", {
+    strings: [
+      "Software Developer",
+      "Tutor",
+      "Mentor",
+      "Designer",
+      "Blogger",
+      "Freelancer",
+    ],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true,
+  });
 });
