@@ -17,6 +17,12 @@ $(document).ready(function () {
     $("html").animate({ scrollTop: 0 });
   });
 
+  // togle menu/nav-bar Script
+  $(".menu-btn").click(function () {
+    $(".nav-bar .menu").toggleClass("active");
+    $(".menu-btn i").toggleClass("active");
+  });
+
   // Typing animation script
   var typed = new Typed(".typing", {
     strings: [
