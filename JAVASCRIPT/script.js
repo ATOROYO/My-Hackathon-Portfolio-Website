@@ -31,4 +31,19 @@ $(document).ready(function () {
     backSpeed: 60,
     loop: true,
   });
+
+  //   Typing About page
+  var typed = new Typed(".typing-2", {
+    strings: [
+      "Software Developer",
+      "Tutor",
+      "Mentor",
+      "Designer",
+      "Blogger",
+      "Freelancer",
+    ],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true,
+  });
 });
