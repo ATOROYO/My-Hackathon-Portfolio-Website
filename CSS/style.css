@@ -82,6 +82,30 @@ html {
   display: none;
 }
 
+.scroll-up-btn {
+  position: fixed;
+  height: 45px;
+  width: 42px;
+  background: rgb(173, 10, 78);
+  right: 30px;
+  bottom: 10px;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 8px;
+  pointer-events: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 9999;
+}
+
+.scroll-up-btn.show {
+  bottom: 30px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
 .nav-bar {
   position: fixed;
   z-index: 999;
