@@ -38,3 +38,10 @@ $(document).ready(function () {
     loop: true,
   });
 });
+
+// Function for read more button
+function expandParagraph(params) {
+  var expandedParagraph =
+    "Apart from the above mention, I'm also a good fine artist and I like drawing things when ever I'm. To add on to that, I do have basic knowledge when it comes to PC repair and maintenance and some litle electronics. And I'm always ready to learn anything new.";
+  document.getElementById("toExpand").innerHTML = expandedParagraph;
+}
