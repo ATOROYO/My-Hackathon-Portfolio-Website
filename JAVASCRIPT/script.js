@@ -27,7 +27,7 @@ $(document).ready(function () {
   // Typing animation script
   var typed = new Typed(".typing", {
     strings: [
-      "Software Developer",
+      "Software Engineer",
       "Mentor",
       "Designer",
       "Blogger",
