@@ -28,7 +28,6 @@ $(document).ready(function () {
   var typed = new Typed(".typing", {
     strings: [
       "Software Developer",
-      "Tutor",
       "Mentor",
       "Designer",
       "Blogger",
