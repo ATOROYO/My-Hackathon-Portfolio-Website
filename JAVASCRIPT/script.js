@@ -1,5 +1,6 @@
 $(document).ready(function () {
   $(window).scroll(function () {
+    // Sticky nav
     if (this.scrollY > 20) {
       $(".nav-bar").addClass("sticky");
     } else {
