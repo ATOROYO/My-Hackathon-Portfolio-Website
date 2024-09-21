@@ -1,3 +1,4 @@
+// JQuer function
 $(document).ready(function () {
   $(window).scroll(function () {
     // Sticky nav
