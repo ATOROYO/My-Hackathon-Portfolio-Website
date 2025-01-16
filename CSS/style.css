@@ -40,6 +40,11 @@ html {
   font-weight: 600;
   color: #fff;
   text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.nav-bar .logo a:hover {
+  transform: scale(1.1);
 }
 
 .nav-bar .logo a span {
