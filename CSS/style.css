@@ -129,6 +129,10 @@ html {
   flex-wrap: wrap;
 }
 
+.text-and-image {
+  overflow: hidden; /* Prevent image from breaking layout */
+}
+
 /* Slides Background Color */
 .slide-1 {
   background: #e3aadd;
@@ -142,12 +146,19 @@ html {
   right: 0;
   bottom: 0;
   position: absolute;
-  z-index: 2;
-  transform: translateX(-50px);
+  /* z-index: 2;
+  transform: translateX(-50px); */
 }
 
 .home .max-width {
   margin: auto 0 auto 40px;
+}
+
+.text-and-image {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically on small screens */
+  align-items: center; /* Center elements horizontally */
+  margin-bottom: 50px; /* Optional spacing */
 }
 
 .home .home-content .text1 {
@@ -849,6 +860,10 @@ footer span a:hover {
     padding: 0 25px;
   }
 
+  .text-and-image {
+    flex-direction: row; /* Stack elements horizontally on larger screens */
+  }
+
   .home .home-content .text2 {
     font-size: 60px;
   }
@@ -862,14 +877,14 @@ footer span a:hover {
     padding: 8px 25px;
   }
 
-  /* .image-home img {
-    max-width: 60%;
-    height: 60%;
-    margin: 20px 0;
-    right: 0;
+  .image-home img {
+    max-width: 55%;
+    height: 55%;
+    /* margin: 20px 0; */
+    padding-right: 0;
     bottom: 0;
     position: absolute;
-  } */
+  }
 
   .services .services-content .card,
   .skills .skills-content .column,
