@@ -63,7 +63,7 @@ html {
   font-size: 18px;
   font-weight: 500;
   margin-left: 25px;
-  transition: all 0.3s ease;
+  transition: color 0.3s ease, transform 0.2s ease;
 }
 
 .nav-bar .menu li a:hover {
