@@ -68,10 +68,12 @@ html {
 
 .nav-bar .menu li a:hover {
   color: rgb(173, 10, 78);
+  transform: scale(1.1);
 }
 
 .nav-bar.sticky .menu li a:hover {
   color: #fff;
+  transform: scale(1.1);
 }
 
 /* Menu btn styling */
